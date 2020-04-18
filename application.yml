@@ -1,0 +1,20 @@
+spring: 
+    profiles: 
+        active: 
+        - dev
+        
+---
+#开发环境
+spring: 
+    profiles: dev  
+    application: 
+        name: mircoservice-config-dev
+   
+---
+#测试环境
+spring: 
+    profiles: test  
+    application: 
+        name: mircoservice-config-test
+        
+#一定要保存为utf-8的格式         
